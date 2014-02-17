@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9248375318B1A9B700B2E2D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9248375218B1A9B700B2E2D6 /* Foundation.framework */; };
+		9248375518B1A9B700B2E2D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9248375418B1A9B700B2E2D6 /* CoreGraphics.framework */; };
+		9248375718B1A9B700B2E2D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9248375618B1A9B700B2E2D6 /* UIKit.framework */; };
+		9248375D18B1A9B700B2E2D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9248375B18B1A9B700B2E2D6 /* InfoPlist.strings */; };
+		9248375F18B1A9B700B2E2D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248375E18B1A9B700B2E2D6 /* main.m */; };
+		9248376318B1A9B700B2E2D6 /* VGBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248376218B1A9B700B2E2D6 /* VGBAppDelegate.m */; };
+		9248376618B1A9B700B2E2D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9248376418B1A9B700B2E2D6 /* Main.storyboard */; };
+		9248376918B1A9B700B2E2D6 /* VGBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248376818B1A9B700B2E2D6 /* VGBViewController.m */; };
+		9248376B18B1A9B700B2E2D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9248376A18B1A9B700B2E2D6 /* Images.xcassets */; };
+		9248377218B1A9B700B2E2D6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9248377118B1A9B700B2E2D6 /* XCTest.framework */; };
+		9248377318B1A9B700B2E2D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9248375218B1A9B700B2E2D6 /* Foundation.framework */; };
+		9248377418B1A9B700B2E2D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9248375618B1A9B700B2E2D6 /* UIKit.framework */; };
+		9248377C18B1A9B700B2E2D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9248377A18B1A9B700B2E2D6 /* InfoPlist.strings */; };
+		9248377E18B1A9B700B2E2D6 /* PixelBirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248377D18B1A9B700B2E2D6 /* PixelBirdTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9248377518B1A9B700B2E2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9248374718B1A9B700B2E2D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9248374E18B1A9B700B2E2D6;
+			remoteInfo = PixelBird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9248374F18B1A9B700B2E2D6 /* PixelBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9248375218B1A9B700B2E2D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9248375418B1A9B700B2E2D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9248375618B1A9B700B2E2D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9248375A18B1A9B700B2E2D6 /* PixelBird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PixelBird-Info.plist"; sourceTree = "<group>"; };
+		9248375C18B1A9B700B2E2D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9248375E18B1A9B700B2E2D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9248376018B1A9B700B2E2D6 /* PixelBird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PixelBird-Prefix.pch"; sourceTree = "<group>"; };
+		9248376118B1A9B700B2E2D6 /* VGBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGBAppDelegate.h; sourceTree = "<group>"; };
+		9248376218B1A9B700B2E2D6 /* VGBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGBAppDelegate.m; sourceTree = "<group>"; };
+		9248376518B1A9B700B2E2D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9248376718B1A9B700B2E2D6 /* VGBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGBViewController.h; sourceTree = "<group>"; };
+		9248376818B1A9B700B2E2D6 /* VGBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGBViewController.m; sourceTree = "<group>"; };
+		9248376A18B1A9B700B2E2D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9248377018B1A9B700B2E2D6 /* PixelBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9248377118B1A9B700B2E2D6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9248377918B1A9B700B2E2D6 /* PixelBirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PixelBirdTests-Info.plist"; sourceTree = "<group>"; };
+		9248377B18B1A9B700B2E2D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9248377D18B1A9B700B2E2D6 /* PixelBirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PixelBirdTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9248374C18B1A9B700B2E2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248375518B1A9B700B2E2D6 /* CoreGraphics.framework in Frameworks */,
+				9248375718B1A9B700B2E2D6 /* UIKit.framework in Frameworks */,
+				9248375318B1A9B700B2E2D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9248376D18B1A9B700B2E2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248377218B1A9B700B2E2D6 /* XCTest.framework in Frameworks */,
+				9248377418B1A9B700B2E2D6 /* UIKit.framework in Frameworks */,
+				9248377318B1A9B700B2E2D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9248374618B1A9B600B2E2D6 = {
+			isa = PBXGroup;
+			children = (
+				9248375818B1A9B700B2E2D6 /* PixelBird */,
+				9248377718B1A9B700B2E2D6 /* PixelBirdTests */,
+				9248375118B1A9B700B2E2D6 /* Frameworks */,
+				9248375018B1A9B700B2E2D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9248375018B1A9B700B2E2D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9248374F18B1A9B700B2E2D6 /* PixelBird.app */,
+				9248377018B1A9B700B2E2D6 /* PixelBirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9248375118B1A9B700B2E2D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9248375218B1A9B700B2E2D6 /* Foundation.framework */,
+				9248375418B1A9B700B2E2D6 /* CoreGraphics.framework */,
+				9248375618B1A9B700B2E2D6 /* UIKit.framework */,
+				9248377118B1A9B700B2E2D6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9248375818B1A9B700B2E2D6 /* PixelBird */ = {
+			isa = PBXGroup;
+			children = (
+				9248376118B1A9B700B2E2D6 /* VGBAppDelegate.h */,
+				9248376218B1A9B700B2E2D6 /* VGBAppDelegate.m */,
+				9248376418B1A9B700B2E2D6 /* Main.storyboard */,
+				9248376718B1A9B700B2E2D6 /* VGBViewController.h */,
+				9248376818B1A9B700B2E2D6 /* VGBViewController.m */,
+				9248376A18B1A9B700B2E2D6 /* Images.xcassets */,
+				9248375918B1A9B700B2E2D6 /* Supporting Files */,
+			);
+			path = PixelBird;
+			sourceTree = "<group>";
+		};
+		9248375918B1A9B700B2E2D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9248375A18B1A9B700B2E2D6 /* PixelBird-Info.plist */,
+				9248375B18B1A9B700B2E2D6 /* InfoPlist.strings */,
+				9248375E18B1A9B700B2E2D6 /* main.m */,
+				9248376018B1A9B700B2E2D6 /* PixelBird-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9248377718B1A9B700B2E2D6 /* PixelBirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				9248377D18B1A9B700B2E2D6 /* PixelBirdTests.m */,
+				9248377818B1A9B700B2E2D6 /* Supporting Files */,
+			);
+			path = PixelBirdTests;
+			sourceTree = "<group>";
+		};
+		9248377818B1A9B700B2E2D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9248377918B1A9B700B2E2D6 /* PixelBirdTests-Info.plist */,
+				9248377A18B1A9B700B2E2D6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9248374E18B1A9B700B2E2D6 /* PixelBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9248378118B1A9B700B2E2D6 /* Build configuration list for PBXNativeTarget "PixelBird" */;
+			buildPhases = (
+				9248374B18B1A9B700B2E2D6 /* Sources */,
+				9248374C18B1A9B700B2E2D6 /* Frameworks */,
+				9248374D18B1A9B700B2E2D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixelBird;
+			productName = PixelBird;
+			productReference = 9248374F18B1A9B700B2E2D6 /* PixelBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9248376F18B1A9B700B2E2D6 /* PixelBirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9248378418B1A9B700B2E2D6 /* Build configuration list for PBXNativeTarget "PixelBirdTests" */;
+			buildPhases = (
+				9248376C18B1A9B700B2E2D6 /* Sources */,
+				9248376D18B1A9B700B2E2D6 /* Frameworks */,
+				9248376E18B1A9B700B2E2D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9248377618B1A9B700B2E2D6 /* PBXTargetDependency */,
+			);
+			name = PixelBirdTests;
+			productName = PixelBirdTests;
+			productReference = 9248377018B1A9B700B2E2D6 /* PixelBirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9248374718B1A9B700B2E2D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VGB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Mac003;
+				TargetAttributes = {
+					9248376F18B1A9B700B2E2D6 = {
+						TestTargetID = 9248374E18B1A9B700B2E2D6;
+					};
+				};
+			};
+			buildConfigurationList = 9248374A18B1A9B700B2E2D6 /* Build configuration list for PBXProject "PixelBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9248374618B1A9B600B2E2D6;
+			productRefGroup = 9248375018B1A9B700B2E2D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9248374E18B1A9B700B2E2D6 /* PixelBird */,
+				9248376F18B1A9B700B2E2D6 /* PixelBirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9248374D18B1A9B700B2E2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248376B18B1A9B700B2E2D6 /* Images.xcassets in Resources */,
+				9248375D18B1A9B700B2E2D6 /* InfoPlist.strings in Resources */,
+				9248376618B1A9B700B2E2D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9248376E18B1A9B700B2E2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248377C18B1A9B700B2E2D6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9248374B18B1A9B700B2E2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248376318B1A9B700B2E2D6 /* VGBAppDelegate.m in Sources */,
+				9248376918B1A9B700B2E2D6 /* VGBViewController.m in Sources */,
+				9248375F18B1A9B700B2E2D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9248376C18B1A9B700B2E2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248377E18B1A9B700B2E2D6 /* PixelBirdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9248377618B1A9B700B2E2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9248374E18B1A9B700B2E2D6 /* PixelBird */;
+			targetProxy = 9248377518B1A9B700B2E2D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9248375B18B1A9B700B2E2D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9248375C18B1A9B700B2E2D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9248376418B1A9B700B2E2D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9248376518B1A9B700B2E2D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9248377A18B1A9B700B2E2D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9248377B18B1A9B700B2E2D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9248377F18B1A9B700B2E2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9248378018B1A9B700B2E2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9248378218B1A9B700B2E2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixelBird/PixelBird-Prefix.pch";
+				INFOPLIST_FILE = "PixelBird/PixelBird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9248378318B1A9B700B2E2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixelBird/PixelBird-Prefix.pch";
+				INFOPLIST_FILE = "PixelBird/PixelBird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9248378518B1A9B700B2E2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixelBird.app/PixelBird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixelBird/PixelBird-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PixelBirdTests/PixelBirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9248378618B1A9B700B2E2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixelBird.app/PixelBird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixelBird/PixelBird-Prefix.pch";
+				INFOPLIST_FILE = "PixelBirdTests/PixelBirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9248374A18B1A9B700B2E2D6 /* Build configuration list for PBXProject "PixelBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9248377F18B1A9B700B2E2D6 /* Debug */,
+				9248378018B1A9B700B2E2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9248378118B1A9B700B2E2D6 /* Build configuration list for PBXNativeTarget "PixelBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9248378218B1A9B700B2E2D6 /* Debug */,
+				9248378318B1A9B700B2E2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9248378418B1A9B700B2E2D6 /* Build configuration list for PBXNativeTarget "PixelBirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9248378518B1A9B700B2E2D6 /* Debug */,
+				9248378618B1A9B700B2E2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9248374718B1A9B700B2E2D6 /* Project object */;
+}
