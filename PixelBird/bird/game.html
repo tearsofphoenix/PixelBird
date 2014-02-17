@@ -1,0 +1,59 @@
+
+<html>
+<head>
+
+<!-- Meta -->
+<meta charset="utf-8">
+    <meta name="viewport" content="width = 320,initial-scale = 2.3, user-scalable = no">
+
+<!-- Javascript -->
+<script src="js/preloadjs-NEXT.min.js"></script>
+<script src="js/createjs.min.js"></script>
+<script src="js/ndgmr.Collision.js"></script>
+<script src="js/flappybird.js"></script>
+
+<!-- Styles http://www.freevideogamesonline.org/includes -->
+<link rel="stylesheet" type="text/css" href="js/global-styles.css" />
+
+        <style type="text/css">
+
+            @font-face {
+                font-family: 'Flappy Bird';
+                src: url('fonts/FB.eot');
+                src: url('fonts/FB.eot?#iefix') format('embedded-opentype'),
+                     url('fonts/FB.woff') format('woff'),
+                     url('fonts/FB.ttf') format('truetype'),
+                font-weight: normal;
+                font-style: normal;
+            }
+            body, html {
+                margin: 0px;
+                padding: 0px;
+                text-align: center;
+                height: 100%;
+			   background: black;
+            }
+            canvas {
+                margin-bottom: -4px;
+                max-height: 100%;
+                max-width: 100%;
+            }
+        </style>
+
+<!-- IOS Specific -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<link rel="apple-touch-icon" href="ios/iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="ios/ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="ios/iphoneretina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="ios/ipadretina.png">
+
+</head>
+
+<body onload="init();">
+
+<canvas id="testCanvas" width="768" height="768"></canvas>
+
+
+</body>
+</html>

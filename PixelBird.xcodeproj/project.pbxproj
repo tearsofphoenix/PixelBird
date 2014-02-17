@@ -13,14 +13,14 @@
 		9248375D18B1A9B700B2E2D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9248375B18B1A9B700B2E2D6 /* InfoPlist.strings */; };
 		9248375F18B1A9B700B2E2D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248375E18B1A9B700B2E2D6 /* main.m */; };
 		9248376318B1A9B700B2E2D6 /* VGBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248376218B1A9B700B2E2D6 /* VGBAppDelegate.m */; };
-		9248376618B1A9B700B2E2D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9248376418B1A9B700B2E2D6 /* Main.storyboard */; };
-		9248376918B1A9B700B2E2D6 /* VGBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248376818B1A9B700B2E2D6 /* VGBViewController.m */; };
 		9248376B18B1A9B700B2E2D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9248376A18B1A9B700B2E2D6 /* Images.xcassets */; };
 		9248377218B1A9B700B2E2D6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9248377118B1A9B700B2E2D6 /* XCTest.framework */; };
 		9248377318B1A9B700B2E2D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9248375218B1A9B700B2E2D6 /* Foundation.framework */; };
 		9248377418B1A9B700B2E2D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9248375618B1A9B700B2E2D6 /* UIKit.framework */; };
 		9248377C18B1A9B700B2E2D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9248377A18B1A9B700B2E2D6 /* InfoPlist.strings */; };
 		9248377E18B1A9B700B2E2D6 /* PixelBirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248377D18B1A9B700B2E2D6 /* PixelBirdTests.m */; };
+		9248378918B1AA2800B2E2D6 /* VGBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248378818B1AA2800B2E2D6 /* VGBViewController.m */; };
+		9248378B18B1AAF400B2E2D6 /* bird in Resources */ = {isa = PBXBuildFile; fileRef = 9248378A18B1AAF400B2E2D6 /* bird */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +44,15 @@
 		9248376018B1A9B700B2E2D6 /* PixelBird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PixelBird-Prefix.pch"; sourceTree = "<group>"; };
 		9248376118B1A9B700B2E2D6 /* VGBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGBAppDelegate.h; sourceTree = "<group>"; };
 		9248376218B1A9B700B2E2D6 /* VGBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGBAppDelegate.m; sourceTree = "<group>"; };
-		9248376518B1A9B700B2E2D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9248376718B1A9B700B2E2D6 /* VGBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGBViewController.h; sourceTree = "<group>"; };
-		9248376818B1A9B700B2E2D6 /* VGBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGBViewController.m; sourceTree = "<group>"; };
 		9248376A18B1A9B700B2E2D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9248377018B1A9B700B2E2D6 /* PixelBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9248377118B1A9B700B2E2D6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9248377918B1A9B700B2E2D6 /* PixelBirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PixelBirdTests-Info.plist"; sourceTree = "<group>"; };
 		9248377B18B1A9B700B2E2D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9248377D18B1A9B700B2E2D6 /* PixelBirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PixelBirdTests.m; sourceTree = "<group>"; };
+		9248378718B1AA2800B2E2D6 /* VGBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGBViewController.h; sourceTree = "<group>"; };
+		9248378818B1AA2800B2E2D6 /* VGBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGBViewController.m; sourceTree = "<group>"; };
+		9248378A18B1AAF400B2E2D6 /* bird */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bird; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,11 @@
 		9248375818B1A9B700B2E2D6 /* PixelBird */ = {
 			isa = PBXGroup;
 			children = (
+				9248378A18B1AAF400B2E2D6 /* bird */,
 				9248376118B1A9B700B2E2D6 /* VGBAppDelegate.h */,
 				9248376218B1A9B700B2E2D6 /* VGBAppDelegate.m */,
-				9248376418B1A9B700B2E2D6 /* Main.storyboard */,
-				9248376718B1A9B700B2E2D6 /* VGBViewController.h */,
-				9248376818B1A9B700B2E2D6 /* VGBViewController.m */,
+				9248378718B1AA2800B2E2D6 /* VGBViewController.h */,
+				9248378818B1AA2800B2E2D6 /* VGBViewController.m */,
 				9248376A18B1A9B700B2E2D6 /* Images.xcassets */,
 				9248375918B1A9B700B2E2D6 /* Supporting Files */,
 			);
@@ -230,8 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9248376B18B1A9B700B2E2D6 /* Images.xcassets in Resources */,
+				9248378B18B1AAF400B2E2D6 /* bird in Resources */,
 				9248375D18B1A9B700B2E2D6 /* InfoPlist.strings in Resources */,
-				9248376618B1A9B700B2E2D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9248376318B1A9B700B2E2D6 /* VGBAppDelegate.m in Sources */,
-				9248376918B1A9B700B2E2D6 /* VGBViewController.m in Sources */,
+				9248378918B1AA2800B2E2D6 /* VGBViewController.m in Sources */,
 				9248375F18B1A9B700B2E2D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,14 +281,6 @@
 				9248375C18B1A9B700B2E2D6 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9248376418B1A9B700B2E2D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9248376518B1A9B700B2E2D6 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		9248377A18B1A9B700B2E2D6 /* InfoPlist.strings */ = {
@@ -382,6 +374,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PixelBird/PixelBird-Prefix.pch";
 				INFOPLIST_FILE = "PixelBird/PixelBird-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,6 +388,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PixelBird/PixelBird-Prefix.pch";
 				INFOPLIST_FILE = "PixelBird/PixelBird-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
